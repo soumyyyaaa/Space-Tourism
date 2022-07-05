@@ -1,4 +1,60 @@
+/*
+font-family: 'Barlow Condensed', sans-serif;
+font-family: 'Bellefair', serif;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+
 body {
     background-image: url("home-imgs/background-home-desktop.jpg");
+    background-size: cover;
     color: #fff;
+}
+
+.logo {
+    background-color: #fff;
+    border-radius: 100%;
+}
+
+.home {
+    padding: 15% 12%;
+}
+
+.heading5 {
+    font-family: 'Bellefair', serif;
+    font-size: 28px;
+    letter-spacing: 4.75;
+    color: #D0D6F9;
+}
+
+.heading1 {
+    font-family: 'Bellefair', serif;
+    font-size: 150px;
+}
+
+.home-messg {
+    color: #D0D6F9;
+}
+
+.white-circle {
+    margin-top: 10%;
+    margin-left: 40%;
+    margin-right: 20%;
+    border-radius: 100%;
+    background-color: #fff;
+    padding: 20% 12%;
+    border-color: #fff ;
+}
+
+.heading4 {
+    font-family: 'Bellefair', serif;
+    text-align: center;
+    font-size: 32px;
+    color: #0B0D17;
+}
+
+.white-circle:hover {
+    border: 50px solid #393E46;
+    margin-top: 8%;
+    padding: 15% 7%;
 }
