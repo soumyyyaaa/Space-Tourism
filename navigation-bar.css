@@ -20,25 +20,25 @@ body {
     color: #fff;
 }
 
-.active {
+.active-copy {
     background-color: #413F42 !important;
     border-bottom: 2px solid #fff !important;
     border-radius: 0 !important;
 }
 
-.nav-link {
+.nav-link-copy {
     text-decoration: none;
     color: #fff !important;
     font-family: 'Bellefair', serif;
 }
 
-.nav-link:hover {
+.nav-link-copy:hover {
     color: #fff;
-    border-bottom: 2px solid #393E46;
-    border-radius: 0;
+    border-radius: 0 !important;
+    background-color: grey !important;
 }
 
-.nav-pills {
+.nav-pills-copy {
     padding-top: 1.5%;
     padding-bottom: 1.5%;
     padding-right: 3%;
