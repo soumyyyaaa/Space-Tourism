@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+
 body {
     background-image: url("/Destination/background-destination-desktop.jpg");
     background-size: cover;
@@ -8,4 +11,80 @@ body {
     font-size: 28px;
     letter-spacing: 4.75;
     color: #fff;
+}
+
+.row {
+    padding: 6% 12%;
+    text-align: left;
+}
+
+.heading1 {
+    font-family: 'Bellefair', serif;
+    font-size: 150px;
+    color: #fff;
+    margin-top: 5%;
+}
+
+.plain-text {
+    color: #D0D6F9;
+}
+
+.heading5 td {
+    padding: 5% 0;
+}
+
+table {
+    width: 60%;
+}
+
+.dest-line {
+    color: #fff;
+    margin: 15% 0;
+}
+
+.moon {
+    margin-top: 20%;
+}
+
+.nav-pills-menu {
+    font-size: 24px;
+}
+
+.active-menu {
+    border-bottom: 2px solid #fff !important;
+    border-radius: 0 !important;
+}
+
+
+.nav-link-menu {
+    color: #D0D6F9 !important;
+    text-decoration: none;
+    font-family: 'Bellefair', serif;
+}
+
+@media only screen and (min-width : 992px) {
+    .row {
+        padding: 5% 9%;
+    }
+
+    .heading5 {
+        font-size: 25px;
+    }
+    
+    .heading1 {
+        font-size: 100px;
+    }
+
+    .nav-pills-menu {
+        font-size: 18px;
+    }
+
+    .dest-line {
+        margin: 10% 0;
+    }
+
+    .moon {
+        margin-top: 15%;
+        width: 70%;
+    }
 }
