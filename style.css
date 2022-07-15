@@ -6,6 +6,7 @@ font-family: 'Bellefair', serif;
 @import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
 
 body {
+    padding: 4%;
     background-image: url("home-imgs/background-home-desktop.jpg");
     background-size: cover;
     color: #fff;
@@ -14,10 +15,21 @@ body {
 .logo {
     background-color: #fff;
     border-radius: 100%;
+    float: left;
+    margin: 1%;
+}
+
+.line {
+    width: 50%;
+    float: left;
+    margin-top: 2%;
+    margin-left: 10%;
+    color: #fff;
 }
 
 .home {
     padding: 15% 12%;
+    text-align: center;
 }
 
 .heading5 {
@@ -38,8 +50,6 @@ body {
 
 .white-circle {
     margin-top: 10%;
-    margin-left: 40%;
-    margin-right: 20%;
     border-radius: 100%;
     background-color: #fff;
     padding: 20% 12%;
@@ -57,4 +67,76 @@ body {
     border: 50px solid #393E46;
     margin-top: 8%;
     padding: 15% 7%;
+}
+
+.active {
+    background-color: #413F42 !important;
+    border-bottom: 2px solid #fff !important;
+    border-radius: 0 !important;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Bellefair', serif;
+}
+
+.nav-link:hover {
+    color: #fff;
+    border-bottom: 2px solid #393E46;
+    border-radius: 0;
+}
+
+.nav-pills {
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    padding-right: 3%;
+    background-color: #413F42;
+    opacity: 0.8;
+}
+
+@media only screen and (min-width : 992px) {
+    body {
+        padding: 2%;
+    }
+    
+    .logo {
+        margin: 0;
+    }
+
+    .line {
+        width: 30%;
+    }
+    
+    .home {
+        padding: 12% 9%;
+    }
+    
+    .heading5 {
+        font-size: 25px;
+    }
+    
+    .heading1 {
+        font-size: 130px;
+    }
+    
+    .white-circle {
+        margin-top: 8%;
+        padding: 18% 10%;
+    }
+    
+    .heading4 {
+        font-size: 30px;
+        color: #0B0D17;
+    }
+    
+    .white-circle:hover {
+        border: 20px solid #393E46;
+    }
+    
+    .nav-pills {
+        padding-top: 1%;
+        padding-bottom: 1%;
+        padding-right: 5%;
+    }
 }
