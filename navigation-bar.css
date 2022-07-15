@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+
+body {
+    padding: 4%;
+}
+
+.logo {
+    background-color: #fff;
+    border-radius: 100%;
+    float: left;
+    margin: 1%;
+}
+
+.line {
+    width: 50%;
+    float: left;
+    margin-top: 2%;
+    margin-left: 10%;
+    color: #fff;
+}
+
+.active {
+    background-color: #413F42 !important;
+    border-bottom: 2px solid #fff !important;
+    border-radius: 0 !important;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #fff !important;
+    font-family: 'Bellefair', serif;
+}
+
+.nav-link:hover {
+    color: #fff;
+    border-bottom: 2px solid #393E46;
+    border-radius: 0;
+}
+
+.nav-pills {
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    padding-right: 3%;
+    background-color: #413F42;
+    opacity: 0.8;
+    color: #fff !important;
+}
+
+.nav {
+    color: #fff !important;
+}
+
+@media only screen and (min-width : 992px) {
+    body {
+        padding: 2%;
+    }
+    
+    .logo {
+        margin: 0;
+    }
+
+    .line {
+        width: 30%;
+    }
+
+    .nav-pills {
+        padding-top: 1%;
+        padding-bottom: 1%;
+        padding-right: 5%;
+    }
+}
