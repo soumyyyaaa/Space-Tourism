@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+
+body {
+    background-image: url("/Technology/background-technology-desktop.jpg");
+    background-size: cover;
+    padding-right: 0;
+}
+
+.heading5 {
+    font-family: 'Bellefair', serif;
+    font-size: 32px;
+    letter-spacing: 4.75;
+    color: #fff;
+    margin-top: 7%;
+    margin-left: 10%;
+}
+
+.number {
+    font-weight: 900;
+    color: grey;
+}
+
+.row {
+    padding-left: 12%;
+}
+
+.left-container {
+    padding-top: 10%;
+}
+
+.buttons {
+    float: left;
+}
+
+.button-round {
+    font-family: 'Bellefair', serif;
+    border-radius: 100%;
+    padding: 25% 0;
+    font-size: 30px;
+    background: none;
+    border: 1px solid #fff;
+    margin: 30% 0;
+    width: 130%;
+}
+
+.active-button {
+    background-color: #fff;
+}
+
+.text {
+    margin-left: 20%;
+    text-align: left;
+}
+
+.plain-text-heading {
+    color: #D0D6F9;
+    margin-top: 5%;
+}
+
+.plain-text {
+    color: #D0D6F9;
+    margin-top: 5%;
+}
+
+.heading1 {
+    font-family: 'Bellefair', serif;
+    font-size: 65px;
+    color: #fff;
+    margin-top: 2%;
+}
+
+.image {
+    text-align: right;
+}
+
+.tech-img {
+    width: 80%;
+}
+
+@media only screen and (min-width : 992px) {
+    .heading5 {
+        font-size: 20px;
+        margin-top: 5%;
+    }
+    
+    .row {
+        padding-left: 5%;
+    }
+    
+    .left-container {
+        padding-top: 5%;
+    }
+    
+    .button-round {
+        font-size: 20px;
+        margin: 15% 0;
+        width: 80%;
+    }
+    
+    .text {
+        margin-left: 25%;
+    }
+
+    .plain-text-heading {
+        margin-top: 2%;
+    }
+
+    .plain-text {
+        margin-top: 2%;
+    }
+    
+    .heading1 {
+        font-size: 50px;
+    }
+  
+    .tech-img {
+        width: 60%;
+    }
+}
