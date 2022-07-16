@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+
+body {
+    background-image: url("/Crew/background-crew-desktop.jpg");
+    background-size: cover;
+    padding-bottom: 0;
+}
+
+.heading5 {
+    font-family: 'Bellefair', serif;
+    font-size: 28px;
+    letter-spacing: 4.75;
+    color: #fff;
+}
+
+.heading4 {
+    font-family: 'Bellefair', serif;
+    font-size: 32px;
+    color: grey;
+    margin-top: 20%;
+}
+
+.number {
+    font-weight: 900;
+    color: grey;
+}
+
+.row {
+    padding: 15% 12% 0 12% !important;
+    text-align: left;
+}
+
+.heading1 {
+    font-family: 'Bellefair', serif;
+    font-size: 150px;
+    color: #fff;
+    margin-top: 2%;
+}
+
+.plain-text {
+    color: #D0D6F9;
+    margin-top: 5%;
+}
+
+.crew-img {
+    width: max-content;
+    margin-left: 30%;
+    margin-top: 17%;
+}
+
+@media only screen and (min-width : 992px) {
+    .row {
+        padding: 7% 9% 5% 9% !important;
+    }
+
+    .heading5 {
+        font-size: 25px;
+    }
+    
+    .heading1 {
+        font-size: 54px;
+    }
+
+    .crew-img {
+        width: 80%;
+        margin-top: 0;
+    }
+
+    .heading4 {
+        font-size: 30px;
+        margin-top: 20%;
+    }
+}

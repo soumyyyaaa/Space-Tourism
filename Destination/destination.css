@@ -13,6 +13,11 @@ body {
     color: #fff;
 }
 
+.number {
+    font-weight: 900;
+    color: #3e404b;
+}
+
 .row {
     padding: 6% 12%;
     text-align: left;
