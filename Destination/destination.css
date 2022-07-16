@@ -22,12 +22,17 @@ body {
     font-family: 'Bellefair', serif;
     font-size: 150px;
     color: #fff;
-    margin-top: 5%;
+    margin-top: 15%;
 }
 
 .plain-text {
     color: #D0D6F9;
 }
+
+.table-plain-text {
+    color: #D0D6F9;
+}
+
 
 .heading5 td {
     padding: 5% 0;
@@ -42,12 +47,13 @@ table {
     margin: 15% 0;
 }
 
-.moon {
+.moon-img {
     margin-top: 20%;
 }
 
 .nav-pills-menu {
     font-size: 24px;
+    cursor: pointer;
 }
 
 .active-menu {
@@ -60,6 +66,11 @@ table {
     color: #D0D6F9 !important;
     text-decoration: none;
     font-family: 'Bellefair', serif;
+}
+
+.nav-link-menu:hover {
+    background-color: #3e404b !important;
+    border-radius: 0 !important;
 }
 
 @media only screen and (min-width : 992px) {
@@ -83,7 +94,7 @@ table {
         margin: 10% 0;
     }
 
-    .moon {
+    .moon-img {
         margin-top: 15%;
         width: 70%;
     }
