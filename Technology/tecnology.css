@@ -79,48 +79,11 @@ body {
 }
 
 @media only screen and (min-width: 992px) {
-    .heading5 {
-        font-size: 20px;
-        margin-top: 5%;
-    }
-    
-    .row {
-        padding-left: 5%;
-    }
-    
     .left-container {
         padding-top: 5%;
     }
-    
-    .button-round {
-        font-size: 20px;
-        margin: 15% 0;
-        width: 80%;
-    }
-    
-    .text {
-        margin-left: 25%;
-    }
 
-    .plain-text-heading {
-        margin-top: 2%;
-    }
-
-    .plain-text {
-        margin-top: 2%;
-    }
-    
-    .heading1 {
-        font-size: 50px;
-    }
-  
     .tech-img {
         width: 60%;
-    }
-}
-
-@media (min-width: 481px) and (max-width: 768px) {
-    body {
-        background-image: url("/Technology/background-technology-tablet.jpg");
     }
 }
