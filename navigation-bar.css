@@ -20,35 +20,27 @@ body {
     color: #fff;
 }
 
+.navbar-nav {
+    background-color: #413F42;
+    opacity: 0.8;
+    padding: 1.5% 3%;
+    font-family: 'Bellefair', serif;
+}
+
 .active-copy {
-    background-color: #413F42 !important;
     border-bottom: 2px solid #fff !important;
     border-radius: 0 !important;
 }
 
 .nav-link-copy {
-    text-decoration: none;
     color: #fff !important;
-    font-family: 'Bellefair', serif;
+    text-decoration: none;
 }
 
 .nav-link-copy:hover {
     color: #fff;
     border-radius: 0 !important;
     background-color: grey !important;
-}
-
-.nav-pills-copy {
-    padding-top: 1.5%;
-    padding-bottom: 1.5%;
-    padding-right: 3%;
-    background-color: #413F42;
-    opacity: 0.8;
-    color: #fff !important;
-}
-
-.nav {
-    color: #fff !important;
 }
 
 @media only screen and (min-width : 992px) {
@@ -62,11 +54,5 @@ body {
 
     .line {
         width: 30%;
-    }
-
-    .nav-pills {
-        padding-top: 1%;
-        padding-bottom: 1%;
-        padding-right: 5%;
     }
 }
