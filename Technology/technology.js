@@ -1,3 +1,11 @@
+$(window).resize(function() {
+    var windowWidth = $(window).width();
+    if (windowWidth < '1024') {
+        $(".toggler-button-tech").removeClass("buttons");
+    }
+});
+
+
 $(".space-port").click(function(){
     $(".launch-vehicle").removeClass("active-button");
     $(".space-capsule").removeClass("active-button");
@@ -14,13 +22,6 @@ $(".space-capsule").click(function(){
     $(".heading1").text("SPACE CAPSULE");
     $(".plain-text").text("A space capsule is an often-crewed spacecraft that uses a blunt-body reentry capsule to reenter the Earth's atmosphere without wings. Our capsule is where you'll spend your time during the flight. It includes a space gym, cinema, and plenty of other activities to keep you entertained..")
     $(".tech-img-portrait").attr("src", "/Technology/image-space-capsule-portrait.jpg")
-});
-
-$(window).resize(function() {
-    var windowWidth = $(window).width();
-    if (windowWidth < '600') {
-        $(".toggler-button-tech").removeClass("buttons");
-    }
 });
 
 $(".space-port").click(function(){
