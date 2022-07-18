@@ -21,19 +21,23 @@ body {
     margin-top: 20%;
 }
 
+.tablet-img {
+    display: none;
+}
+
 .number {
     font-weight: 900;
     color: grey;
 }
 
-.row {
-    padding: 15% 12% 0 12% !important;
+.carousel {
+    padding: 10% 10% 4% 10% !important;
     text-align: left;
 }
 
 .heading1 {
     font-family: 'Bellefair', serif;
-    font-size: 150px;
+    font-size: 70px;
     color: #fff;
     margin-top: 2%;
 }
@@ -45,30 +49,109 @@ body {
 
 .crew-img {
     width: max-content;
-    margin-left: 30%;
-    margin-top: 17%;
+    margin-left: 5%;
 }
 
-@media only screen and (min-width : 992px) {
-    .row {
-        padding: 7% 9% 5% 9% !important;
+.crew-line {
+    display: none;
+}
+
+/*----------------IPAD----------------------*/
+@media only screen and (min-device-width: 600px) and (max-device-width: 1024px) {
+    body {
+        background-image: url("/Crew/background-crew-tablet.jpg");
+        text-align: center;
+    }
+    
+    .line {
+        display: none;
+    }
+
+    .tablet-img {
+        display: none;
+    }
+
+    .crew-line {
+        display: none;
     }
 
     .heading5 {
-        font-size: 25px;
+        font-size: 22px;
+        text-align: left;
+    }
+    
+    .heading4 {
+        font-size: 28px;
+        margin-top: 10%;
+    }
+    
+    .carousel {
+    padding: 10% 10% 6% 10% !important;
+    text-align: center;
+    }
+
+    .desktop-img {
+        display: block;
     }
     
     .heading1 {
-        font-size: 54px;
+        font-size: 40px;
     }
-
+    
     .crew-img {
-        width: 80%;
-        margin-top: 0;
+        width: 60%;
+        margin-top: 5%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/*----------------------PHONE---------------*/
+@media only screen and (max-width: 600px) {
+    body {
+        background-image: url("/Crew/background-crew-mobile.jpg");
+        text-align: center;
     }
 
+    .line {
+        display: none;
+    }
+    
+    .tablet-img {
+        display: block;
+    }
+
+    .crew-line {
+        display: block;
+        color: #fff;
+    }
+
+    .heading5 {
+        font-size: 20px;
+    }
+    
     .heading4 {
+        font-size: 22px;
+        margin-top: 5%;
+    }
+    
+    .carousel {
+        padding: 12% 12% 10% 12% !important;
+        text-align: center;
+    }
+
+    .desktop-img {
+        display: none;
+    }
+    
+    .heading1 {
         font-size: 30px;
-        margin-top: 20%;
+    }
+    
+    .crew-img {
+        width: 60%;
+        margin-top: 5%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
