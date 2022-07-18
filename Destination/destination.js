@@ -1,3 +1,11 @@
+$(window).resize(function() {
+    var windowWidth = $(window).width();
+    if (windowWidth < '1024') {
+        $(".nav").addClass("justify-content-center");
+    }
+});
+
+
 $(".mars").click(function() {
     $(".mars").addClass("active-menu");
     $(".moon").removeClass("active-menu");
